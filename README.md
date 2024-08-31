@@ -23,5 +23,33 @@
 	4. To download this, search C++ windows download
 	[Latest supported Visual C++ Redistributable downloads | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 12.  Change in php.ini file
-	1. Rename
-	2. 
+	1. Rename php-development.ini to php.ini
+	2. Open php.ini edit
+	3. remove `;` from this extensions
+			1. extension=curl
+			2. extension=gd
+			3. extension=fileinfo
+			4. extension=mbstring
+			5. extension=openssl
+			6. extension=pdo_mysql
+	4.  find
+```
+; On windows:
+extension_dir="ext"
+```
+
+	 5. Change it
+```
+; On windows:
+extension_dir="C:\Program Files\php\ext"
+```
+
+	 6. Change Memory limit (for Windows)
+
+```
+; Maximum amount of memory a script may consume
+; https://php.net/memory-limit
+memory_limit=512M
+```
+
+
