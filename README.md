@@ -23,4 +23,5 @@
 	4. To download this, search C++ windows download
 	[Latest supported Visual C++ Redistributable downloads | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 12.  Change in php.ini file
-	1. Rename 
+	1. Rename
+	2. 
